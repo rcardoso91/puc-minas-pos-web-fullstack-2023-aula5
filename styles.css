@@ -1,0 +1,132 @@
+/* Estilo para a barra de navegação */
+.navbar {
+    background-color: #ffffff;
+    border-bottom: 1px solid #dbdbdb;
+    padding: 8px 0;
+}
+
+.navbar-brand {
+    font-weight: bold;
+    color: #000;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    /* Transforme o texto do logotipo em maiúsculas */
+    letter-spacing: -1px;
+    /* Adicione um espaçamento entre letras ligeiramente negativo */
+}
+
+.nav-link {
+    color: #000;
+    font-weight: bold;
+    margin-right: 20px;
+    font-size: 1rem;
+    text-transform: uppercase;
+    transition: color 0.2s;
+    /* Adicione uma transição suave na mudança de cor */
+}
+
+.nav-link:hover {
+    color: #262626;
+}
+
+/* Estilo para o botão de login */
+.navbar .nav-link.login {
+    background-color: #3897f0;
+    color: #fff;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    font-weight: bold;
+    font-size: 1rem;
+    text-transform: uppercase;
+    transition: background-color 0.2s;
+}
+
+.navbar .nav-link.login:hover {
+    background-color: #2684e0;
+}
+
+/* Estilo para o conteúdo principal */
+.container {
+    max-width: 935px;
+}
+
+.card {
+    margin-bottom: 20px;
+    border: none;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+}
+
+.card-title {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+.card-text {
+    font-size: 1rem;
+    color: #333;
+}
+
+/* Estilo para botões */
+.btn-primary {
+    background-color: #3897f0;
+    color: #fff;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    font-weight: bold;
+    font-size: 1rem;
+    text-transform: uppercase;
+    transition: background-color 0.2s;
+}
+
+.btn-primary:hover {
+    background-color: #2684e0;
+}
+
+/* Estilo para os formulários nos modais */
+.modal-body form {
+    margin-top: 20px;
+}
+
+.form-group label {
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+.form-control {
+    margin-top: 8px;
+    padding: 8px;
+    font-size: 1rem;
+}
+
+/* Estilo para os alertas */
+.alert {
+    margin-top: 20px;
+    font-size: 1rem;
+}
+
+.alert-heading {
+    font-weight: bold;
+}
+
+/* Estilo para as imagens de perfil e sugestões */
+.card-img-top {
+    max-width: 100%;
+}
+
+/* Estilo para os ícones de seguir nas sugestões */
+.list-group-item .btn-primary {
+    font-size: 1rem;
+    padding: 4px 8px;
+    font-weight: bold;
+}
+
+/* Estilo para o carrossel */
+.carousel-inner img {
+    height: 400px;
+    /* Defina a altura desejada para as imagens do carrossel */
+    width: auto;
+    /* Permita que a largura se ajuste automaticamente */
+}
